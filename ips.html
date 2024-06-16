@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artee creatives</title>
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles for overlays */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0); /* Transparent overlay */
+            z-index: 9999;
+            pointer-events: none; /* Prevent blocking interactions by default */
+        }
+        .overlay.active {
+            pointer-events: all; /* Allow blocking interactions when active */
+        }
+        header, .contact {
+            position: relative;
+            z-index: 10000; /* Ensure header and contact section are above the overlay */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header design -->
+    <header>
+        <a href="#" class="logo">
+            <img src="https://iili.io/J6hwKsj.png" alt="ARTEE CREATIVES Logo" class="logo-img">
+        </a>
+        <ul class="navlist">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">Clients</a></li>
+            <li><a href="index.html">Pricing</a></li>
+            <li><a href="index.html">Contact Me</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Click blocker overlay -->
+    <div id="click-blocker" class="overlay"></div>
+
+    <!-- Photo grid section -->
+    <div class="photo-grid">
+        <a href="https://freeimage.host/i/d9a6F94"><img src="https://iili.io/d9a6F94.md.jpg" alt="d9a6F94.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a62Sf"><img src="https://iili.io/d9a62Sf.md.jpg" alt="d9a62Sf.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6KAl"><img src="https://iili.io/d9a6KAl.md.jpg" alt="d9a6KAl.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6fN2"><img src="https://iili.io/d9a6fN2.md.jpg" alt="d9a6fN2.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6nV9"><img src="https://iili.io/d9a6nV9.md.jpg" alt="d9a6nV9.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6Co7"><img src="https://iili.io/d9a6Co7.md.jpg" alt="d9a6Co7.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6qtS"><img src="https://iili.io/d9a6qtS.md.jpg" alt="d9a6qtS.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6oPe"><img src="https://iili.io/d9a6oPe.md.jpg" alt="d9a6oPe.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6Icb"><img src="https://iili.io/d9a6Icb.md.jpg" alt="d9a6Icb.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/d9a6TSj"><img src="https://iili.io/d9a6TSj.md.jpg" alt="d9a6TSj.md.jpg" border="0"></a><br /><a target='_blank' href='https://freeimage.host/'>apu hot photo</a><br />
+        <a href="https://freeimage.host/i/JiSZdIs"><img src="https://iili.io/JiSZdIs.md.png" alt="JiSZdIs.md.png" border="0"></a>
+    </div>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get In<span> Touch</span></h2>
+            <h4>"Ready to bring your vision to life? Let's collaborate."</h4>
+            <!-- Replace with your contact details or form -->
+            <div class="list">
+                <li><a href="#">6305202806</a></li>
+                <li><a href="#">arteecreatives@gmail.com</a></li>
+                <li><a href="#">Where imagination takes shape</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/rushy.areti/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/artee_creatives/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=916305202806&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/hrushikesh-areti/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <!-- Embed your contact form here -->
+            <div data-paperform-id="dav9ivlh" width="640" height="453"></div>
+            <script>
+                (function() {
+                    var script = document.createElement('script');
+                    script.src = "https://paperform.co/__embed.min.js";
+                    document.body.appendChild(script);
+                })();
+            </script>
+        </div>
+    </section>
+
+    <!-- End section design -->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2024 by Hrushikesh Areti ALL Rights Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- JavaScript for blocking interactions -->
+    <script>
+        // Function to toggle the click blocker overlay
+        function toggleClickBlocker(active) {
+            const clickBlocker = document.getElementById('click-blocker');
+            if (active) {
+                clickBlocker.classList.add('active');
+            } else {
+                clickBlocker.classList.remove('active');
+            }
+        }
+
+        // Example: Toggle click blocker overlay on page load (for testing)
+        toggleClickBlocker(true); // Set to true to initially block interactions
+
+        // Example event listener to toggle click blocker overlay
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('header') && !event.target.closest('.contact')) { // Ignore clicks inside the header and contact section
+                event.stopPropagation();
+                event.preventDefault();
+                toggleClickBlocker(true); // Block interactions on any click outside the header and contact section
+            }
+        });
+
+        // Example: Toggle click blocker overlay based on some condition
+        setTimeout(() => {
+            toggleClickBlocker(false); // Set to false to allow interactions after some delay
+        }, 5000); // Example delay, remove in production
+    </script>
+</body>
+
+</html>

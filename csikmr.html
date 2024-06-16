@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artee creatives</title>
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles for overlays */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0); /* Transparent overlay */
+            z-index: 9999;
+            pointer-events: none; /* Prevent blocking interactions by default */
+        }
+        .overlay.active {
+            pointer-events: all; /* Allow blocking interactions when active */
+        }
+        header, .contact {
+            position: relative;
+            z-index: 10000; /* Ensure header and contact section are above the overlay */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header design -->
+    <header>
+        <a href="#" class="logo">
+            <img src="https://iili.io/J6hwKsj.png" alt="ARTEE CREATIVES Logo" class="logo-img">
+        </a>
+        <ul class="navlist">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">Clients</a></li>
+            <li><a href="index.html">Pricing</a></li>
+            <li><a href="index.html">Contact Me</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Click blocker overlay -->
+    <div id="click-blocker" class="overlay"></div>
+
+    <!-- Photo grid section -->
+    <div class="photo-grid">
+        <a href="https://freeimage.host/i/JivDlbs"><img src="https://iili.io/JivDlbs.md.jpg" alt="JivDlbs.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDW12"><img src="https://iili.io/JivDW12.md.jpg" alt="JivDW12.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivD1zG"><img src="https://iili.io/JivD1zG.md.jpg" alt="JivD1zG.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbo2S"><img src="https://iili.io/Jivbo2S.md.jpg" alt="Jivbo2S.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDGs4"><img src="https://iili.io/JivDGs4.md.jpg" alt="JivDGs4.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDEXf"><img src="https://iili.io/JivDEXf.md.jpg" alt="JivDEXf.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDjd7"><img src="https://iili.io/JivDjd7.md.jpg" alt="JivDjd7.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDXgS"><img src="https://iili.io/JivDXgS.md.jpg" alt="JivDXgS.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDNee"><img src="https://iili.io/JivDNee.md.jpg" alt="JivDNee.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDw79"><img src="https://iili.io/JivDw79.md.jpg" alt="JivDw79.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDOmu"><img src="https://iili.io/JivDOmu.md.jpg" alt="JivDOmu.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDvXj"><img src="https://iili.io/JivDvXj.md.jpg" alt="JivDvXj.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDrrB"><img src="https://iili.io/JivDrrB.md.jpg" alt="JivDrrB.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivD8Lx"><img src="https://iili.io/JivD8Lx.md.jpg" alt="JivD8Lx.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDUqQ"><img src="https://iili.io/JivDUqQ.md.jpg" alt="JivDUqQ.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDtLv"><img src="https://iili.io/JivDtLv.md.jpg" alt="JivDtLv.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDP71"><img src="https://iili.io/JivDP71.md.jpg" alt="JivDP71.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDikF"><img src="https://iili.io/JivDikF.md.jpg" alt="JivDikF.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDQIa"><img src="https://iili.io/JivDQIa.md.jpg" alt="JivDQIa.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDZhJ"><img src="https://iili.io/JivDZhJ.md.jpg" alt="JivDZhJ.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDbBR"><img src="https://iili.io/JivDbBR.md.jpg" alt="JivDbBR.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb92I"><img src="https://iili.io/Jivb92I.md.jpg" alt="Jivb92I.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivDm1p"><img src="https://iili.io/JivDm1p.md.jpg" alt="JivDm1p.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbH7t"><img src="https://iili.io/JivbH7t.md.jpg" alt="JivbH7t.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbdpn"><img src="https://iili.io/Jivbdpn.md.jpg" alt="Jivbdpn.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb3Is"><img src="https://iili.io/Jivb3Is.md.jpg" alt="Jivb3Is.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbFhG"><img src="https://iili.io/JivbFhG.md.jpg" alt="JivbFhG.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbC42"><img src="https://iili.io/JivbC42.md.jpg" alt="JivbC42.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbqB4"><img src="https://iili.io/JivbqB4.md.jpg" alt="JivbqB4.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbKQf"><img src="https://iili.io/JivbKQf.md.jpg" alt="JivbKQf.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbBEl"><img src="https://iili.io/JivbBEl.md.jpg" alt="JivbBEl.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbxY7"><img src="https://iili.io/JivbxY7.md.jpg" alt="JivbxY7.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbzv9"><img src="https://iili.io/Jivbzv9.md.jpg" alt="Jivbzv9.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbIpe"><img src="https://iili.io/JivbIpe.md.jpg" alt="JivbIpe.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbuTu"><img src="https://iili.io/JivbuTu.md.jpg" alt="JivbuTu.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbAhb"><img src="https://iili.io/JivbAhb.md.jpg" alt="JivbAhb.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb1v1"><img src="https://iili.io/Jivb1v1.md.jpg" alt="Jivb1v1.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbRQj"><img src="https://iili.io/JivbRQj.md.jpg" alt="JivbRQj.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb7Cx"><img src="https://iili.io/Jivb7Cx.md.jpg" alt="Jivb7Cx.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbYEQ"><img src="https://iili.io/JivbYEQ.md.jpg" alt="JivbYEQ.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivba4V"><img src="https://iili.io/Jivba4V.md.jpg" alt="Jivba4V.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbhCv"><img src="https://iili.io/JivbhCv.md.jpg" alt="JivbhCv.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb0YP"><img src="https://iili.io/Jivb0YP.md.jpg" alt="Jivb0YP.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbEyF"><img src="https://iili.io/JivbEyF.md.jpg" alt="JivbEyF.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbMTg"><img src="https://iili.io/JivbMTg.md.jpg" alt="JivbMTg.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbWZJ"><img src="https://iili.io/JivbWZJ.md.jpg" alt="JivbWZJ.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbw4p"><img src="https://iili.io/Jivbw4p.md.jpg" alt="Jivbw4p.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbO3N"><img src="https://iili.io/JivbO3N.md.jpg" alt="JivbO3N.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbkvt"><img src="https://iili.io/Jivbkvt.md.jpg" alt="Jivbkvt.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbvyX"><img src="https://iili.io/JivbvyX.md.jpg" alt="JivbvyX.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbSun"><img src="https://iili.io/JivbSun.md.jpg" alt="JivbSun.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbgZG"><img src="https://iili.io/JivbgZG.md.jpg" alt="JivbgZG.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivb4nf"><img src="https://iili.io/Jivb4nf.md.jpg" alt="Jivb4nf.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbP6l"><img src="https://iili.io/JivbP6l.md.jpg" alt="JivbP6l.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbDue"><img src="https://iili.io/JivbDue.md.jpg" alt="JivbDue.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbLaS"><img src="https://iili.io/JivbLaS.md.jpg" alt="JivbLaS.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbt99"><img src="https://iili.io/Jivbt99.md.jpg" alt="Jivbt99.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivmH6Q"><img src="https://iili.io/JivmH6Q.md.jpg" alt="JivmH6Q.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivbmZb"><img src="https://iili.io/JivbmZb.md.jpg" alt="JivbmZb.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivm9Mx"><img src="https://iili.io/Jivm9Mx.md.jpg" alt="Jivm9Mx.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivbynj"><img src="https://iili.io/Jivbynj.md.jpg" alt="Jivbynj.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivmdFV"><img src="https://iili.io/JivmdFV.md.jpg" alt="JivmdFV.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivmK91"><img src="https://iili.io/JivmK91.md.jpg" alt="JivmK91.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivm2cB"><img src="https://iili.io/Jivm2cB.md.jpg" alt="Jivm2cB.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivm38P"><img src="https://iili.io/Jivm38P.md.jpg" alt="Jivm38P.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/Jivmqwg"><img src="https://iili.io/Jivmqwg.md.jpg" alt="Jivmqwg.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/JivmfAF"><img src="https://iili.io/JivmfAF.md.jpg" alt="JivmfAF.md.jpg" border="0"></a>
+    </div>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get In<span> Touch</span></h2>
+            <h4>"Ready to bring your vision to life? Let's collaborate."</h4>
+            <!-- Replace with your contact details or form -->
+            <div class="list">
+                <li><a href="#">6305202806</a></li>
+                <li><a href="#">arteecreatives@gmail.com</a></li>
+                <li><a href="#">Where imagination takes shape</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/rushy.areti/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/artee_creatives/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=916305202806&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/hrushikesh-areti/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <!-- Embed your contact form here -->
+            <div data-paperform-id="dav9ivlh" width="640" height="453"></div>
+            <script>
+                (function() {
+                    var script = document.createElement('script');
+                    script.src = "https://paperform.co/__embed.min.js";
+                    document.body.appendChild(script);
+                })();
+            </script>
+        </div>
+    </section>
+
+    <!-- End section design -->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2024 by Hrushikesh Areti ALL Rights Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- JavaScript for blocking interactions -->
+    <script>
+        // Function to toggle the click blocker overlay
+        function toggleClickBlocker(active) {
+            const clickBlocker = document.getElementById('click-blocker');
+            if (active) {
+                clickBlocker.classList.add('active');
+            } else {
+                clickBlocker.classList.remove('active');
+            }
+        }
+
+        // Example: Toggle click blocker overlay on page load (for testing)
+        toggleClickBlocker(true); // Set to true to initially block interactions
+
+        // Example event listener to toggle click blocker overlay
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('header') && !event.target.closest('.contact')) { // Ignore clicks inside the header and contact section
+                event.stopPropagation();
+                event.preventDefault();
+                toggleClickBlocker(true); // Block interactions on any click outside the header and contact section
+            }
+        });
+
+        // Example: Toggle click blocker overlay based on some condition
+        setTimeout(() => {
+            toggleClickBlocker(false); // Set to false to allow interactions after some delay
+        }, 5000); // Example delay, remove in production
+    </script>
+</body>
+
+</html>
