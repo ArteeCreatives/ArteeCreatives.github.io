@@ -52,7 +52,7 @@ header {
     letter-spacing: 1px;
     display: flex; /* Use flexbox to align items */
     align-items: center; /* Align items vertically */
-    padding-left: 3rem;
+    padding-left: 0.4rem;
 }
 .logo-img {
     height: 100%; /* Align the logo's height with the header */
