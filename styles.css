@@ -268,7 +268,7 @@ header.sticky {
 }
 
 .about-img img {
-    max-height: 530px;
+    max-height: 1000px;
     height: auto;
     width: 100%;
     border-radius: 8px;
