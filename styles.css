@@ -562,25 +562,6 @@ body {
         column-count: 2;
     }
 }
-@media (max-width: 600px) {
-  .portfolio-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* Optional: spacing between items */
-  }
-
-  .portfolio-content .row {
-    width: 25%; /* 4 items per row */
-    box-sizing: border-box;
-  }
-
-  .portfolio-content .row img {
-    width: 100%; /* Make images responsive inside row */
-    display: block;
-  }
-}
-
 
 @media (min-width: 900px) {
     .photo-grid {
@@ -807,6 +788,25 @@ form textarea {
         height: 87vh;
 
     }
+}
+
+@media (max-width: 600px) {
+  .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Optional: spacing between items */
+  }
+
+  .portfolio-content .row {
+    width: 25%; /* 4 items per row */
+    box-sizing: border-box;
+  }
+
+  .portfolio-content .row img {
+    width: 100%; /* Make images responsive inside row */
+    display: block;
+  }
 }
 
 @media(max-width:920px) {
