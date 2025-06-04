@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artee creatives</title>
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles for overlays */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0); /* Transparent overlay */
+            z-index: 9999;
+            pointer-events: none; /* Prevent blocking interactions by default */
+        }
+        .overlay.active {
+            pointer-events: all; /* Allow blocking interactions when active */
+        }
+        header, .contact {
+            position: relative;
+            z-index: 10000; /* Ensure header and contact section are above the overlay */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header design -->
+    <header>
+        <a href="#" class="logo">
+            <img src="https://iili.io/J6hwKsj.png" alt="ARTEE CREATIVES Logo" class="logo-img">
+        </a>
+        <ul class="navlist">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">Clients</a></li>
+            <li><a href="index.html">Pricing</a></li>
+            <li><a href="index.html">Contact Me</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Click blocker overlay -->
+    <div id="click-blocker" class="overlay"></div>
+
+    <!-- Photo grid section -->
+    <div class="photo-grid">
+        <a href="https://freeimage.host/i/FdBy0UQ"><img src="https://iili.io/FdBy0UQ.md.png" alt="FdBy0UQ.md.png" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPd0X"><img src="https://iili.io/FdBPd0X.md.jpg" alt="FdBPd0X.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPJft"><img src="https://iili.io/FdBPJft.md.jpg" alt="FdBPJft.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBP2gn"><img src="https://iili.io/FdBP2gn.md.jpg" alt="FdBP2gn.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPFJs"><img src="https://iili.io/FdBPFJs.md.jpg" alt="FdBPFJs.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPqb4"><img src="https://iili.io/FdBPqb4.md.jpg" alt="FdBPqb4.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPCzl"><img src="https://iili.io/FdBPCzl.md.jpg" alt="FdBPCzl.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPI19"><img src="https://iili.io/FdBPI19.md.jpg" alt="FdBPI19.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPTge"><img src="https://iili.io/FdBPTge.md.jpg" alt="FdBPTge.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPAdu"><img src="https://iili.io/FdBPAdu.md.jpg" alt="FdBPAdu.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBP7mx"><img src="https://iili.io/FdBP7mx.md.jpg" alt="FdBP7mx.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPcXV"><img src="https://iili.io/FdBPcXV.md.jpg" alt="FdBPcXV.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBP1qP"><img src="https://iili.io/FdBP1qP.md.jpg" alt="FdBP1qP.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPVdg"><img src="https://iili.io/FdBPVdg.md.jpg" alt="FdBPVdg.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPW7a"><img src="https://iili.io/FdBPW7a.md.jpg" alt="FdBPW7a.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPhmv"><img src="https://iili.io/FdBPhmv.md.jpg" alt="FdBPhmv.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPwIR"><img src="https://iili.io/FdBPwIR.md.jpg" alt="FdBPwIR.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPNXp"><img src="https://iili.io/FdBPNXp.md.jpg" alt="FdBPNXp.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPOLN"><img src="https://iili.io/FdBPOLN.md.jpg" alt="FdBPOLN.md.jpg" border="0"></a>
+        <a href="https://freeimage.host/i/FdBPkBI"><img src="https://iili.io/FdBPkBI.md.jpg" alt="FdBPkBI.md.jpg" border="0"></a>
+    </div>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get In<span> Touch</span></h2>
+            <h4>"Ready to bring your vision to life? Let's collaborate."</h4>
+            <!-- Replace with your contact details or form -->
+            <div class="list">
+                <li><a href="#">6305202806</a></li>
+                <li><a href="#">arteecreatives@gmail.com</a></li>
+                <li><a href="#">Where imagination takes shape</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/rushy.areti/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/artee_creatives/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=916305202806&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/hrushikesh-areti/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <!-- Embed your contact form here -->
+            <div data-paperform-id="dav9ivlh" width="640" height="453"></div>
+            <script>
+                (function() {
+                    var script = document.createElement('script');
+                    script.src = "https://paperform.co/__embed.min.js";
+                    document.body.appendChild(script);
+                })();
+            </script>
+        </div>
+    </section>
+
+    <!-- End section design -->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2024 by Hrushikesh Areti ALL Rights Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- JavaScript for blocking interactions -->
+    <script>
+        // Function to toggle the click blocker overlay
+        function toggleClickBlocker(active) {
+            const clickBlocker = document.getElementById('click-blocker');
+            if (active) {
+                clickBlocker.classList.add('active');
+            } else {
+                clickBlocker.classList.remove('active');
+            }
+        }
+
+        // Example: Toggle click blocker overlay on page load (for testing)
+        toggleClickBlocker(true); // Set to true to initially block interactions
+
+        // Example event listener to toggle click blocker overlay
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('header') && !event.target.closest('.contact')) { // Ignore clicks inside the header and contact section
+                event.stopPropagation();
+                event.preventDefault();
+                toggleClickBlocker(true); // Block interactions on any click outside the header and contact section
+            }
+        });
+
+        // Example: Toggle click blocker overlay based on some condition
+        setTimeout(() => {
+            toggleClickBlocker(false); // Set to false to allow interactions after some delay
+        }, 5000); // Example delay, remove in production
+    </script>
+</body>
+
+</html>
