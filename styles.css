@@ -807,6 +807,43 @@ form textarea {
     width: 100%; /* Make images responsive inside row */
     display: block;
   }
+  .layer {
+    padding: 0 5px;  /* reduce horizontal padding */
+    box-sizing: border-box; /* ensures padding doesn't add extra width */
+    overflow-wrap: break-word; /* prevent long words from overflowing */
+  }
+
+  .layer p {
+    font-size: 0.4rem; /* smaller font on mobile */    
+    margin-bottom: 0px;
+
+  }
+
+  .layer h5 {
+    font-size: 5px; /* slightly smaller heading */
+    margin-top: 10px;
+    margin-bottom: 0px;
+     
+  }
+
+  .layer i {
+    width: 20px;    /* smaller icon */
+    height: 20px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+
+  .row {
+    max-width: 100%; /* prevent row from exceeding screen */
+    overflow: hidden; /* clip overflow */
+  }
+
+  /* If image is causing overflow */
+  .row img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 @media(max-width:920px) {
